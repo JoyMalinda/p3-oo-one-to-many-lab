@@ -1,7 +1,6 @@
 class Pet:
     PET_TYPES = ["dog", "cat", "rodent", "bird", "reptile", "exotic"]
     all = []
-    pets_list = []
 
     def __init__(self, name, pet_type, owner="Any"):
         self.name = name
